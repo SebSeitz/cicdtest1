@@ -11,7 +11,7 @@ jobs:
     - name: Node 20.5.1
       uses: actions/setup-node@v1
       with:
-        node-version: v20.5.1
+        node-version: 20.5.1
 
     - name: Install and build
       run: |
