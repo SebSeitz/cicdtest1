@@ -8,7 +8,7 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
 
-     - name: Node 20.5.1
+    - name: Node 20.5.1
       uses: actions/setup-node@v1
       with:
         node-version: v20.5.1
